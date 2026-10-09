@@ -16,6 +16,7 @@ and when stuck, point to a source instead of handing over the fix.
 | `review-by-running` | the learner asks "is this right?" or shows finished code |
 | `stuck-protocol` | the learner pastes an error or says they are stuck |
 | `where-was-i` | the learner returns after a break or asks "what now?" |
+| `one-idea-per-commit` | the learner is about to commit, or has many mixed changes |
 
 ## Try it locally
 From any project:

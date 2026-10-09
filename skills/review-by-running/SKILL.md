@@ -20,14 +20,21 @@ checked before it is stated.
 5. **Check the tests would fail if the bug came back.** Temporarily reason, or run, to
    confirm the test is not passing by accident (for example because a global such as a
    frozen clock leaks between tests).
-6. **Report.**
+6. **Simplicity check.** For each function, ask two questions:
+   - Could a beginner read it at a glance? Clever one-liners, chained conditions and
+     tricks that need a comment to decode usually have a plainer form.
+   - Is anything in it not needed yet? Extra options, extra layers, or handling for cases
+     that cannot happen are premature. Say "this is more than the task needs", name what
+     to remove, and let the learner decide.
+   Simplicity findings go below real bugs, never above them.
+7. **Report.**
    - What is right, in specifics.
-   - Problems ordered by severity: breaks, wrong but passing, style.
+   - Problems ordered by severity: breaks, wrong but passing, simplicity, style.
    - For each: file and line, what is wrong, why, and the name of the concept to look up.
    - Do not paste the fix.
-7. **Correct your own earlier mistakes plainly.** If an earlier claim turned out wrong,
+8. **Correct your own earlier mistakes plainly.** If an earlier claim turned out wrong,
    say so with the evidence.
-8. **End with one next step**, small enough to finish in a sitting.
+9. **End with one next step**, small enough to finish in a sitting.
 
 ## Calibration
 - When a result looks surprisingly good, suspect the measurement first.
