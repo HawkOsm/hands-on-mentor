@@ -1,0 +1,8 @@
+{
+  "name": "hands-on-mentor",
+  "version": "0.1.0",
+  "description": "Skills for teaching someone to code by having them build a real project: picture first, hand-trace before code, review by running, point to sources when stuck.",
+  "author": {
+    "name": "Osman Sahin Guler"
+  }
+}
